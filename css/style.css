@@ -15,19 +15,19 @@ a { color: #fff !important; font-weight: bold; text-decoration: none; }
 }
 
 #main {
-	width: 380px;
+	width: 400px;
 	margin: 0px auto 0px auto;
 }
 
 #main-box { 
-	width: 380px;
+	width: 400px;
 	margin: 0px auto 0px auto;
 	color: #fff;
 }
 
 #main-box-content {
 	margin: 110px auto 0 auto;
-	width: 340px;
+	width: 360px;
 	background: transparent url('../img/main-box-bg.png') 0 0 repeat;
 	padding: 20px;
 	position: relative;
