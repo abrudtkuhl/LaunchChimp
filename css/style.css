@@ -35,6 +35,19 @@ html {
 }
 
 /* mailchimp form */
+.mailchimp_form { width: 200px; margin:0 auto;}
 .mailchimp_form .form_field { background: #fff; border: 1px solid #888; padding: .7em 1em; margin-bottom: .5em; }
-.mailchimp_form .form_button { background: #888; color: #fff; border: 1px solid #000; font-weight: bold; }
-.mailchimp_form .form_button:hover { background: #000; }
+.mailchimp_form .form_button { 
+	float: right; margin-right: 6px;
+	font-size: 24px; 
+	border: 1px solid #888; 
+	color: white;
+	text-shadow: 0 1px rgba(0, 0, 0, 0.1);
+	background-color: #3D9400;
+	background-image: -webkit-linear-gradient(top,#3D9400,#398A00);
+	background-image: -moz-linear-gradient(top,#3D9400,#398A00);
+	background-image: -ms-linear-gradient(top,#3D9400,#398A00);
+	background-image: -o-linear-gradient(top,#3D9400,#398A00);
+	background-image: linear-gradient(top,#3D9400,#398A00);
+}
+.mailchimp_form .form_button:hover { background: #f1f1f1; }
