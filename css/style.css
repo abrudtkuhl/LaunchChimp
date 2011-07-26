@@ -1,5 +1,5 @@
 /*
- * MailChimp power landing page template
+ * MailChimp powered landing page template
  * by: Andy Brudtkuhl (@abrudtkuhl)
  */
 
@@ -7,6 +7,8 @@ html {
 	background: black url('http://farm5.static.flickr.com/4076/4828408360_e36592bce2_o.jpg') no-repeat center center fixed;
 	color: #A0A0A0;
 }
+
+a { color: #fff !important; font-weight: bold; text-decoration: none; }
 
 #container {
 	
@@ -34,13 +36,14 @@ html {
 	-o-border-radius: 10px;
 }
 
+footer .credits { text-align: center; font-style: italic; }
+
 /* mailchimp form */
 .mailchimp_form { width: 200px; margin:0 auto;}
 .mailchimp_form .form_field { background: #fff; border: 1px solid #888; padding: .7em 1em; margin-bottom: .5em; }
 .mailchimp_form .form_button { 
 	float: right; margin-right: 6px;
 	font-size: 24px; 
-	border: 1px solid #888; 
 	color: white;
 	text-shadow: 0 1px rgba(0, 0, 0, 0.1);
 	background-color: #3D9400;
@@ -49,5 +52,11 @@ html {
 	background-image: -ms-linear-gradient(top,#3D9400,#398A00);
 	background-image: -o-linear-gradient(top,#3D9400,#398A00);
 	background-image: linear-gradient(top,#3D9400,#398A00);
+	border: 1px solid #3D9400;
+	border-radius: 4px;
+	-moz-border-radius: 4px;
+	-webkit-border-radius: 4px;
+	display: inline-block;
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorStr='#4D90FE',EndColorStr='#4787ED');
 }
-.mailchimp_form .form_button:hover { background: #f1f1f1; }
+.mailchimp_form .form_button:hover {}
