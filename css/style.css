@@ -3,3 +3,33 @@
  * by: Andy Brudtkuhl (@abrudtkuhl)
  */
 
+html {
+	background: black url('http://farm5.static.flickr.com/4076/4828408360_e36592bce2_o.jpg') no-repeat center center fixed;
+	color: #A0A0A0;
+}
+
+#container {
+	
+}
+
+#main {
+	width: 380px;
+	margin: 0px auto 0px auto;
+}
+
+#main-box { 
+	width: 380px;
+	margin: 0px auto 0px auto;
+	color: #fff;
+}
+
+#main-box-content {
+	margin: 110px auto 0 auto;
+	width: 340px;
+	background: transparent url('../img/main-box-bg.png') 0 0 repeat;
+	padding: 20px;
+	position: relative;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	-o-border-radius: 10px;
+}
