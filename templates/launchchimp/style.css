@@ -4,7 +4,8 @@
  */
 
 html {
-	background: black url('http://farm5.static.flickr.com/4076/4828408360_e36592bce2_o.jpg') no-repeat center center fixed;
+	/* UPDATE THE BACKGROUND IMAGE IF YOU WANT!! */
+	background: black url('http://farm7.static.flickr.com/6007/5992193817_6655f267d1_o.jpg') no-repeat center center fixed;
 	color: #A0A0A0;
 }
 
@@ -26,9 +27,9 @@ a { color: #fff !important; font-weight: bold; text-decoration: none; }
 }
 
 #main-box-content {
-	margin: 110px auto 0 auto;
+	margin: 250px auto 0 auto;
 	width: 360px;
-	background: transparent url('../img/main-box-bg.png') 0 0 repeat;
+	background: transparent url('img/main-box-bg.png') 0 0 repeat;
 	padding: 20px;
 	position: relative;
 	-moz-border-radius: 10px;
