@@ -40,10 +40,11 @@ a { color: #fff !important; font-weight: bold; text-decoration: none; }
 footer .credits { text-align: center; font-style: italic; }
 
 /* mailchimp form */
-.mailchimp_form { width: 200px; margin:0 auto;}
-.mailchimp_form .form_field { background: #fff; border: 1px solid #888; padding: .7em 1em; margin-bottom: .5em; }
+.mailchimp_form { width: 250px; margin:0 auto;}
+.mailchimp_form .form_field { background: #fff; border: 1px solid #888; padding: .7em 1em; margin-bottom: .5em; width: 200px; }
 .mailchimp_form .form_button { 
-	float: right; margin-right: 6px;
+	margin-right: 22px;
+	float: right; 
 	font-size: 24px; 
 	color: white;
 	text-shadow: 0 1px rgba(0, 0, 0, 0.1);
