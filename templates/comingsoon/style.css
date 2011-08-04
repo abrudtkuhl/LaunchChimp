@@ -1,0 +1,94 @@
+/*
+ * Coming Soon
+ * MailChimp powered landing page template
+ * by: Andy Brudtkuhl (@abrudtkuhl)
+ */
+
+#container {}
+#main {}
+.element {
+	width: 760px;
+	margin: 0 auto;
+}
+#main-box-content header { 
+	border-top-style: none;
+	border-right-style: none;
+	border-bottom-style: solid;
+	border-left-style: none;
+	border-width: 1px;
+	border-color: #CCC;
+	background-color: white;
+	margin: 0;
+	position: relative;
+	width: 100%;
+	height: 60px;
+}
+
+#main-box-content header h1 { 
+	font-size: 30px;
+}
+
+#top { 
+	background-image: url(http://unbouncepages-com.s3.amazonaws.com/templates.unbounce.com/lead-gen-coming-soon/bg-grad-grey-to-white.original.png);
+	background-position: center top;
+	background-repeat: repeat-x;
+	margin: 0;
+	position: relative;
+	width: 100%;
+	height: 46px;}
+
+#form { 
+	border-top-style: none;
+	border-right-style: none;
+	border-bottom-style: solid;
+	border-left-style: none;
+	border-width: 1px;
+	border-color: #CCC;
+	background-color: white;
+	background-image: url(http://unbouncepages-com.s3.amazonaws.com/templates.unbounce.com/lead-gen-coming-soon/bg-grad-grey-to-white-inverse.original.png);
+	background-position: center bottom;
+	background-repeat: repeat-x;
+	margin: 0;
+	position: relative;
+	width: 100%;
+	height: 241px;
+}
+
+.headline { font-size: 24px; font-family: georgia; font-style: italic;}
+
+.mailchimp_form {
+	border-top-style: solid;
+	border-right-style: solid;
+	border-bottom-style: solid;
+	border-left-style: solid;
+	border-width: 1px;
+	border-color: #CCC;
+	background-color: white;
+	background-image: url(http://unbouncepages-com.s3.amazonaws.com/templates.unbounce.com/lead-gen-coming-soon/bg-coming-soon.original.png);
+	background-position: center top;
+	background-repeat: repeat-x;
+	padding: 20px;
+}
+
+.form_field { 
+	margin: 0 15px 15px .5em; background: #fff; border: 1px solid #888; padding: .7em 1em; margin-bottom: .5em; width: 200px; 
+}
+
+.form_button { 
+	height: 35px;
+	font-size: 20px; 
+	color: white;
+	text-shadow: 0 1px rgba(0, 0, 0, 0.1);
+	background-color: #3D9400;
+	background-image: -webkit-linear-gradient(top,#fb864f,#fb864f);
+	background-image: -moz-linear-gradient(top,#fb864f,#fb864f);
+	background-image: -ms-linear-gradient(top,#fb864f,#fb864f);
+	background-image: -o-linear-gradient(top,#fb864f,#fb864f);
+	background-image: linear-gradient(top,#fb864f,#fb864f);
+	border: 1px solid #fb864f;
+	border-radius: 4px;
+	-moz-border-radius: 4px;
+	-webkit-border-radius: 4px;
+	display: inline-block;
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorStr='#fb864f',EndColorStr='#fb864f');
+}
