@@ -29,7 +29,7 @@
 }
 
 #top { 
-	background-image: url(http://unbouncepages-com.s3.amazonaws.com/templates.unbounce.com/lead-gen-coming-soon/bg-grad-grey-to-white.original.png);
+	background-image: url('img/comingsoon-bg-top.png');
 	background-position: center top;
 	background-repeat: repeat-x;
 	margin: 0;
@@ -45,7 +45,7 @@
 	border-width: 1px;
 	border-color: #CCC;
 	background-color: white;
-	background-image: url(http://unbouncepages-com.s3.amazonaws.com/templates.unbounce.com/lead-gen-coming-soon/bg-grad-grey-to-white-inverse.original.png);
+	background-image: url('img/comingsoon-bg-bottom.png');
 	background-position: center bottom;
 	background-repeat: repeat-x;
 	margin: 0;
@@ -64,7 +64,7 @@
 	border-width: 1px;
 	border-color: #CCC;
 	background-color: white;
-	background-image: url(http://unbouncepages-com.s3.amazonaws.com/templates.unbounce.com/lead-gen-coming-soon/bg-coming-soon.original.png);
+	background-image: url('img/comingsoon-bg-form.png');
 	background-position: center top;
 	background-repeat: repeat-x;
 	padding: 20px;
