@@ -1,0 +1,10 @@
+/* Top Bar */
+#top-bar { 
+	background-color: #ed5f44;
+	border-bottom: solid 2px #FFF;
+	color: #fff;
+	text-align: center;
+	font-size: 14px;
+	padding: 5px 0;
+}
+#top-bar a { color: #fff !important; }
